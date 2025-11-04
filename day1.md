@@ -13,3 +13,4 @@
 > ### git rebase name
                    -i 修改范围                         //交互式rebase
 > ### git tag tagName name
+> ### git describe name

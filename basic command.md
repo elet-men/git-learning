@@ -3,9 +3,10 @@
 > ### git commit   
                    --amend                            //修改提交
 > ### git cheakout name
-                      -b newBranchName                //新建分支并切换
+                   -b newBranchName [o/main]        //新建分支[跟踪远程分支]并切换
 > ### git branch branchName
-                   -f 目标 相对目标~向上次数            //强行移动目标分支
+                 -f 目标 相对目标~向上次数            //强行移动目标分支
+                 -u o/main 目标                     //跟踪远程分支
 > ### git merge name
 > ### git reset name
 > ### git revert name
